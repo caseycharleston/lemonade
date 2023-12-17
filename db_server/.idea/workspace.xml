@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcfcca91-ff57-4396-84b3-2660703b2a47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lemonaid/src/components/component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lemonaid/src/components/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/setupTests.js" beforeDir="false" />
-    </list>
+    <list default="true" id="dcfcca91-ff57-4396-84b3-2660703b2a47" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,11 +62,22 @@
       <option name="presentableId" value="Default" />
       <updated>1702774038702</updated>
       <workItem from="1702774039718" duration="1142000" />
-      <workItem from="1702775238995" duration="10449000" />
+      <workItem from="1702775238995" duration="11166000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
