@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import '../styles/Profile.css';
+import {FaPlus} from "react-icons/fa"
+import '../styles/profile.css';
 
 export default class Profile extends Component {
     constructor(props) {
         super(props);
         this.state = {
             userData: '',
-            isSidebarOpen: false,
         };
     }
 
@@ -36,7 +36,9 @@ export default class Profile extends Component {
             "The background is hypnotizing you. You will tell your friends to use Lemonade. oooooo....",
             "9/10 Lemon farmers recommend Lemonade.",
             "When life gives you lemons, invest them into new startups and make more lemons.",
-            "One Lemillion Dollars!!!"
+            "One Lemillion Dollars!!!",
+            "Refreshing.",
+            "Sadly, you can't inspect element your wallet.",
         ];
 
         // Generate a random index to pick a proverb
@@ -45,6 +47,12 @@ export default class Profile extends Component {
         // Return the randomly chosen proverb
         return proverbs[randomIndex];
     }
+
+    // Currently coded to print money
+    // addMoney() {
+    //     const { userData } = this.state;
+    //     // this.setState({wallet: newWallet});
+    // }
 
     render() {
         const { userData } = this.state;
@@ -72,12 +80,25 @@ export default class Profile extends Component {
                             </div>
                         ))}
                     </div>
-
-                    <div className="profile-content">
-                        <h2>{welcomeMessage}</h2>
-                        <h3 className="proverb">"{this.chooseProverb()}"</h3>
+                    <div className="containers">
+                        <div className="profile-content">
+                            <h2>{welcomeMessage}</h2>
+                            <h3 className="proverb">"{this.chooseProverb()}"</h3>
+                        </div>
+                        <div className="wallet-content">
+                            <h2>Your Wallet</h2>
+                            <h3>${userData.wallet}</h3>
+                            <button>
+                                <FaPlus/>
+                            </button>
+                        </div>
+                        <div className="wallet-content">
+                            <h2>Your Companies</h2>
+                            <h3 className="proverb">It's awfully empty in here...</h3>
+                        </div>
                     </div>
                 </div>
+
             );
         } else {
             return <div>Loading...</div>;

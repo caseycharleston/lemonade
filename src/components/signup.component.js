@@ -9,36 +9,21 @@ export default class SignUp extends Component {
             email:"",
             password:"",
             userType:"",
+            wallet:0.0,
         };
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleSubmit(e) {
         e.preventDefault();
-        const {first_name, last_name, email, password, userType} = this.state;
+        const {first_name, last_name, email, password, userType, wallet} = this.state;
         // Validate that userType is not empty
 
-        if (!first_name) {
-            alert('Please put it in your first name.');
-            return;
-        }
-        if (!last_name) {
-            alert('Please put in your last name.');
-            return;
-        }
-        if (!email) {
-            alert('Please put in your email.');
-            return;
-        }
-        if (!password) {
-            alert('Please enter a password.');
-            return;
-        }
         if (!userType) {
             alert('Please select a user type (Company or Investor)');
             return;
         }
-        fetch("http://localhost:8080/register", {
+        fetch("http://localhost:8080/registerUser", {
             method:"POST",
             crossDomain:true,
             headers:{
@@ -52,6 +37,7 @@ export default class SignUp extends Component {
                 email,
                 password,
                 userType,
+                wallet,
             }),
         }).then((res)=>res.json())
             .then((data)=>{
@@ -63,6 +49,16 @@ export default class SignUp extends Component {
     return (
         <form onSubmit={this.handleSubmit}>
             <h3>Sign Up 🍋</h3>
+            <div className="mb-3">
+                <select
+                    className="form-control"
+                    onChange={e => this.setState({userType: e.target.value})}
+                >
+                    <option value="">User type</option>
+                    <option value="company">Company</option>
+                    <option value="investor">Investor</option>
+                </select>
+            </div>
 
             <div className="mb-3">
                 <input
@@ -98,17 +94,6 @@ export default class SignUp extends Component {
                     placeholder="Password"
                     onChange={e => this.setState({password: e.target.value})}
                 />
-            </div>
-
-            <div className="mb-3">
-                <select
-                    className="form-control"
-                    onChange={e => this.setState({userType: e.target.value})}
-                >
-                    <option value="">User type</option>
-                    <option value="company">Company</option>
-                    <option value="investor">Investor</option>
-                </select>
             </div>
 
             <div className="d-grid">

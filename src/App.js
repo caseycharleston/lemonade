@@ -8,8 +8,9 @@ import SignUp from './components/signup.component';
 
 import Menu from './components/menu';
 import Profile from './components/profile';
+import ProfileAlt from './components/profile-alt';
 import Browse from './components/browse';
-import Follow from './components/follow';
+import Fetii from './components/companies/fetii';
 
 function App() {
     // Check if the current route is "/profile"
@@ -58,8 +59,9 @@ function App() {
                         }
                     />
                     <Route path="/profile" element={<Profile />} />
+                    <Route path="/profile-alt" element={<ProfileAlt />} />
                     <Route path="/browse" element={<Browse />} />
-                    <Route path="/follow" element={<Follow />} />
+                    <Route path="/company/Fetii" element = {<Fetii />} />
                 </Routes>
             </div>
         </Router>

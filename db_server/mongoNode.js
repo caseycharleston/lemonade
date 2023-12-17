@@ -22,14 +22,13 @@ mongoose.connect(url)
 
 // Import User detail schema
 require("./userSchema");
-const {mongo} = require("mongoose");
 const user = mongoose.model("UserInfo");
 
 /*
     Register Listen Scheme
  */
 
-mongoNode.post("/register", async(req, res) => {
+mongoNode.post("/registerUser", async(req, res) => {
     const {first_name, last_name, email, password, userType} = req.body;
 
     const encryptedPassword = await bcrypt.hash(password,10);
@@ -62,6 +61,7 @@ mongoNode.post("/login", async(req, res) => {
     if (!oldUser) {
         return res.json({error: "User not found"});
     }
+
     if (await bcrypt.compare(password, oldUser.password)) {
         const token = jwt.sign({email:oldUser.email}, SECRET);
 

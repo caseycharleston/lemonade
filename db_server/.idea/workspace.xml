@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcfcca91-ff57-4396-84b3-2660703b2a47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lemonaid/src/components/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lemonaid/src/styles/Profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lemonaid/src/styles/browse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lemonaid/src/styles/follow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lemonaid/src/styles/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lemonaid/src/styles/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lemonaid/db_server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/db_server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/styles/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/components/campaign.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/components/browse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/components/component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/styles/component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/components/follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/components/follow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/components/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/components/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/components/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/components/login.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/db_server/userSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/db_server/userSchema.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lemonaid/src/components/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/components/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lemonaid/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/components/signup.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/components/signup.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/styles/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/src/styles/profile.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -87,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702774038702</updated>
       <workItem from="1702774039718" duration="1142000" />
-      <workItem from="1702775238995" duration="19846000" />
+      <workItem from="1702775238995" duration="20732000" />
     </task>
     <servers />
   </component>

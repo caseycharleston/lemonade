@@ -7,6 +7,7 @@ const user_detail_schema = new mongoose.Schema(
         email: {type:String, unique: true},
         password: String,
         userType: String,
+        wallet: { type: Number, default: 0.0 }
     },
     {
         collection:"UserInfo",
