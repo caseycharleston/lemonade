@@ -1,13 +1,17 @@
 .title {
   text-align: center;
   color: black;
-  float: initial;
+  position: relative;
+  top: 10rem;
+  font-size: 7rem;
 }
 
 .yellow-text {
   color: yellow;
+  font-weight: bold;
 }
 
 .invest-text {
   color: white;
+  font-style: italic;
 }

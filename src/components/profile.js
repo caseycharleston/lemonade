@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import '../styles/Profile.css';
 
 export default class Profile extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            userData: "",
+            userData: '',
+            isSidebarOpen: false,
         };
     }
 
@@ -28,33 +30,53 @@ export default class Profile extends Component {
             });
     }
 
+    chooseProverb() {
+        let proverbs = [
+            "Use your lemons wisely!",
+            "The background is hypnotizing you. You will tell your friends to use Lemonade. oooooo....",
+            "9/10 Lemon farmers recommend Lemonade.",
+            "When life gives you lemons, invest them into new startups and make more lemons.",
+            "One Lemillion Dollars!!!"
+        ];
+
+        // Generate a random index to pick a proverb
+        const randomIndex = Math.floor(Math.random() * proverbs.length);
+
+        // Return the randomly chosen proverb
+        return proverbs[randomIndex];
+    }
+
     render() {
         const { userData } = this.state;
 
         // Check if userType is available in userData
         if (userData && userData.userType) {
             // Conditionally render different welcome messages based on userType
-            let welcomeMessage;
-            if (userData.userType === "company") {
-                welcomeMessage = "Welcome, Company!";
-            } else if (userData.userType === "investor") {
-                welcomeMessage = "Welcome, Investor!";
-            } else {
-                welcomeMessage = "Welcome!";
-            }
+            let welcomeMessage = `Welcome, ${userData.first_name}!`;
 
             return (
-                <div>
-                    <h2>{welcomeMessage}</h2>
-                    <p>
-                        Name: <span>{userData.first_name}</span>
-                    </p>
-                    <p>
-                        Email: <span>{userData.email}</span>
-                    </p>
-                    <p>
-                        Type: <span>{userData.userType}</span>
-                    </p>
+                <div className="profile-container">
+                    <div className="lemon-rain">
+                        {Array.from({ length: 20 }, (v, index) => (
+                            <div
+                                key={index}
+                                className="lemon"
+                                style={{
+                                    left: `${Math.random() * 100}vw`,
+                                    top: `${Math.random() * 100}vh`,
+                                    animationDuration: `${Math.random() * 2 + 10}s`, // Random duration for variation
+                                    animationDelay: `${Math.random() * 3}s`, // Random delay for position change
+                                }}
+                            >
+                                🍋
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="profile-content">
+                        <h2>{welcomeMessage}</h2>
+                        <h3 className="proverb">"{this.chooseProverb()}"</h3>
+                    </div>
                 </div>
             );
         } else {

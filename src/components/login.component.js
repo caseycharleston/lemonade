@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './component.css';
+import '../styles/component.css';
 
 export default class Login extends Component {
     constructor(props) {
@@ -77,7 +77,7 @@ export default class Login extends Component {
           </button>
         </div>
         <p className="forgot-password">
-          Forgot <a href="#">password?</a>
+          Don't have an account? <a href="/sign-up">Sign up</a>
         </p>
       </form>
     )

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import '../styles/follow.css';
+import '../styles/browse.css';
 
-export default class Follow extends Component {
+export default class Browse extends Component {
     constructor(props) {
         super(props);
         this.state = {
