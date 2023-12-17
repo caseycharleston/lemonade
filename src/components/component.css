@@ -1,0 +1,35 @@
+.mb-3 {
+    margin: 10px auto; /* Center the input container horizontally with some spacing */
+    background-color: #ffffcc; /* Softer yellow hex color */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid black; /* Black border */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+.form-control {
+    width: 100%; /* Make the input block fill the container */
+    padding: 5px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+.d-grid {
+    align-content: center;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    background-color: #ffffcc;
+    color: black;
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid black; /* Black border */
+    border-radius: 5px;
+}
+

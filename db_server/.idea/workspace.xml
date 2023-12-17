@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcfcca91-ff57-4396-84b3-2660703b2a47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lemonaid/src/components/component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lemonaid/src/components/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lemonaid/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lemonaid/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../lemonaid" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ZeEFDvLF2ePzSyLOaw5AjpPKzw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcfcca91-ff57-4396-84b3-2660703b2a47" name="Changes" comment="" />
+      <created>1702774038702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702774038702</updated>
+      <workItem from="1702774039718" duration="1142000" />
+      <workItem from="1702775238995" duration="10449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
